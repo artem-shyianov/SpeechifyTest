@@ -49,26 +49,5 @@ The application's entry point is `SwiftUIChallengeApp.swift`, which loads the ma
 
 ### Running Project Example
 
-Screenshots of the full flow are in the `Screenshots` folder.
 
-Example:
-![Example View](Screenshots/5.png)
-
----
-
-## Development Guidelines
-
-### Do's
-
--   Write clean, maintainable, and well-documented code and follow the best practices and coding standards.
--   You are free to use any official documentation or language references (SwiftUI, Swift, etc).
--   You can use the debugging tools and native IDE features (only standard Auto-Completion)
--   Only Write your code in `Shared/ContentView.swift` file.
-
-### Don'ts
-
--   Do NOT use any external libraries for the implementation.
--   DO NOT use any Coding Assistants like GitHub Copilot, ChatGPT, etc or any other AI based tools.
--   DO NOT visit direct blogs or articles related to implementation of the tasks.
--   DO NOT use Stackoverflow or any other forum websites.
--   DO NOT create any new files apart from `Shared/ContentView.swift` file.
+![Simulator Screen Recording - iPhone 16 Pro - 2025-03-24 at 11 15 35](https://github.com/user-attachments/assets/3813be52-2458-4048-b835-87d8f4266b8b)

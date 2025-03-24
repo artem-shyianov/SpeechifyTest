@@ -174,6 +174,7 @@ struct PaymentInfoView: View {
     
     private func refresh() {
         payments = []
+        selectedPayment = nil
         performSearch()
     }
 }

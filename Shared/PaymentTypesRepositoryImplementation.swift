@@ -14,19 +14,19 @@ protocol PaymentTypesRepository {
 }
 
 class PaymentTypesRepositoryImplementation: PaymentTypesRepository {
-    private lazy var types: [PaymentType] = {
+    private var types: [PaymentType] =
         [
             PaymentType(name: "Apple Pay"),
             PaymentType(name: "Visa"),
             PaymentType(name: "Mastercard"),
             PaymentType(name: "Maestro"),
             PaymentType(name: "Google pay")
-        ]
-    }()
+        ].shuffled()
+    
 
     func getTypes(completion: @escaping (Swift.Result<[PaymentType], PaymentError>) -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            completion(.success(self.types.shuffled()))
+            completion(.success(self.types))
         }
     }
 }
